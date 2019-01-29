@@ -1,3 +1,20 @@
+
+### Screenshots
+## Set up
+### Prerequsites
+
+https://www.npmjs.com/get-npm
+
+### To Run
+
+`npm install`
+
+`npm start`
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
