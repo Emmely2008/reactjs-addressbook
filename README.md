@@ -11,15 +11,6 @@ This is a simple React application.
 - Application consists of two pages, one list page and one detailed page.
 - Search and sort functionality: Search by city or name and sort by name or city.
  
-## Screenshots
-
-[![Image from Gyazo](https://i.gyazo.com/0d61b21ce25b2f91bb1af8e3d9c2a76c.png)](https://gyazo.com/0d61b21ce25b2f91bb1af8e3d9c2a76c)
-
-### Details Page
-
-
-[![Image from Gyazo](https://i.gyazo.com/5ae9740124141269b7ee6a0b5bd128ea.png)](https://gyazo.com/5ae9740124141269b7ee6a0b5bd128ea)
-
 
 ## Set Up
  
@@ -43,4 +34,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+## Screenshots
+
+[![Image from Gyazo](https://i.gyazo.com/0d61b21ce25b2f91bb1af8e3d9c2a76c.png)](https://gyazo.com/0d61b21ce25b2f91bb1af8e3d9c2a76c)
+
+*Overview page*
+
+
+[![Image from Gyazo](https://i.gyazo.com/5ae9740124141269b7ee6a0b5bd128ea.png)](https://gyazo.com/5ae9740124141269b7ee6a0b5bd128ea)
+
+*Details Page*
 
