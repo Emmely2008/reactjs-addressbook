@@ -30,6 +30,8 @@ class EmployeeProvider extends Component {
 
         if (response.data.results) {
           result = response.data.results;
+          result = this._sortByName(result);
+          result = this._sortByCity(result); 
         }
         this.setState(() => {
           return { employees: result, filteredEmployees: result };
@@ -79,13 +81,13 @@ class EmployeeProvider extends Component {
     let str = event.target.value.toString().toLowerCase();
     this.setState({ search: str });
     const result = this.state.employees;
-    result.filter((emp) => {
-      return emp.name.first.indexOf(str) !== -1;
-    });
+
     this.setState(() => {
       return {
         filteredEmployees: result.filter((emp) => {
-          return emp.name.first.indexOf(str) !== -1 || emp.name.last.indexOf(str) !== -1 || emp.location.city.indexOf(str) !== -1;
+
+          let displayName = emp.name.title + ' ' + emp.name.first + ' ' +  emp.name.last;
+          return displayName.indexOf(str) !== -1 ;
         })
       };
     });
