@@ -5,11 +5,11 @@ This is a simple React application.
 
 ## Features
 
-- Single page application in ReactJS version 16.7.0. 
-- Responsive design with Bootstrap 4
-- Modern looking design with Bootstrap 4 • 
-- Application consists of two pages, one list page and one detailed page 
-- Search and sort functionality. Search by city or name. Sort by name or city.
+- Single page application in ReactJS (version 16.7.0). 
+- Responsive design with Bootstrap 4.
+- Modern looking design with Bootstrap 4.
+- Application consists of two pages, one list page and one detailed page.
+- Search and sort functionality: Search by city or name and sort by name or city.
  
 ## Screenshots
 
